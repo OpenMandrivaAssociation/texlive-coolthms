@@ -51,3 +51,11 @@ The package also provides other theorem markup commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
++ Revision: 790542
+- Import texlive-coolthms
+- Import texlive-coolthms
+
