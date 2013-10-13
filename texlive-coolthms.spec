@@ -1,11 +1,11 @@
-# revision 25885
+# revision 29062
 # category Package
 # catalog-ctan /macros/latex/contrib/coolthms
-# catalog-date 2012-04-08 13:49:02 +0200
+# catalog-date 2013-02-04 23:34:24 +0100
 # catalog-license lppl
-# catalog-version 1.1
+# catalog-version 1.2
 Name:		texlive-coolthms
-Version:	1.1
+Version:	1.2
 Release:	1
 Summary:	Reference items in a theorem environment
 Group:		Publishing
@@ -51,11 +51,3 @@ The package also provides other theorem markup commands.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1-1
-+ Revision: 790542
-- Import texlive-coolthms
-- Import texlive-coolthms
-
