@@ -6,7 +6,7 @@
 # catalog-version 1.2
 Name:		texlive-coolthms
 Version:	1.2
-Release:	8
+Release:	9
 Summary:	Reference items in a theorem environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolthms
