@@ -1,19 +1,13 @@
-# revision 29062
-# category Package
-# catalog-ctan /macros/latex/contrib/coolthms
-# catalog-date 2013-02-04 23:34:24 +0100
-# catalog-license lppl
-# catalog-version 1.2
 Name:		texlive-coolthms
-Version:	1.2
-Release:	11
+Version:	29062
+Release:	1
 Summary:	Reference items in a theorem environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolthms
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ a'). The package extends the ntheorem and cleveref packages.
 The package also provides other theorem markup commands.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -44,7 +38,8 @@ The package also provides other theorem markup commands.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
