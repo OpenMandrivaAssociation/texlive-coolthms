@@ -1,6 +1,6 @@
 Name:		texlive-coolthms
 Version:	29062
-Release:	1
+Release:	2
 Summary:	Reference items in a theorem environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolthms
