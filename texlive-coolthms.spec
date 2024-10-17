@@ -3,7 +3,7 @@ Version:	29062
 Release:	2
 Summary:	Reference items in a theorem environment
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/coolthms
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/coolthms
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/coolthms.doc.r%{version}.tar.xz
